@@ -6,7 +6,7 @@ import { CLARIFAI_API_KEY } from './api-keys'
 import 'tachyons'
 import './App.css'
 
-function App() {
+const App=()=> {
 	const [input, setInput] = useState('')
 	const [imageUrl, setImageUrl] = useState('')
 	const [boxes, setBoxes] = useState([])
